@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="اتوماسیون هوشمند سفارش کیک و شیرینی با بله | مطالعه موردی پروژه در پرتفولیوی ElAi">
+<meta name="theme-color" content="#fffafd">
+<title>اتوماسیون هوشمند سفارش کیک و شیرینی با بله | ElAi Case Study</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#352b49;--muted:#655a72;--purple:#9271e8;--pink:#f28fbd;--cyan:#67d9d5;--paper:#fffafd;--line:#eee4f4;--shadow:0 18px 55px #7654a51a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.9}
+a{color:inherit;text-decoration:none}.wrap{width:min(1050px,calc(100% - 36px));margin:auto}
+header{position:sticky;top:0;z-index:5;background:#fffafde8;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{font-weight:900;font-size:19px}.mark{display:inline-grid;place-items:center;width:35px;height:35px;border-radius:12px;background:linear-gradient(135deg,var(--purple),var(--pink));color:#fff;margin-left:8px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;border-radius:14px;background:linear-gradient(110deg,var(--purple),var(--pink));color:white;font-weight:800;box-shadow:0 9px 22px #b18ce844}
+.hero{padding:74px 0 58px;position:relative;overflow:hidden}.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;filter:blur(5px);z-index:-1}.hero:before{width:300px;height:300px;background:#e9dcff;top:-100px;left:-50px;opacity:.65}.hero:after{width:250px;height:250px;background:#d5f5f0;bottom:-130px;right:-70px;opacity:.8}
+.eyebrow{display:inline-flex;padding:6px 13px;border:1px solid var(--line);border-radius:30px;background:#fff;color:#9271d2;font-size:12px;font-weight:800}
+h1{font-size:clamp(30px,5vw,52px);line-height:1.35;margin:18px 0 12px}h1 span{background:linear-gradient(90deg,#9872e8,#f18db8,#55c9c5);background-clip:text;color:transparent}
+.subtitle{font-size:18px;color:var(--muted);max-width:800px}.hero-row{display:grid;grid-template-columns:1.25fr .75fr;gap:25px;align-items:center}
+.hero-art{min-height:230px;border-radius:30px;background:linear-gradient(145deg,#332750,#624b9d 55%,#148f9b);display:grid;place-items:center;color:#fff;font-size:92px;box-shadow:0 24px 55px #5d4a9233;position:relative;overflow:hidden}
+.hero-art:before,.hero-art:after{content:"";position:absolute;border:1px solid #ffffff55;border-radius:50%;width:230px;height:230px}.hero-art:after{width:310px;height:310px}.hero-art span{z-index:1;filter:drop-shadow(0 8px 15px #0005)}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0}.meta span,.stack span{background:#fff;border:1px solid var(--line);border-radius:30px;padding:6px 12px;font-size:12px;font-weight:700;color:#655777}
+section{padding:28px 0}.section-title{font-size:25px;margin:0 0 12px}.section-intro{color:var(--muted);margin:0 0 20px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:23px;box-shadow:var(--shadow)}.card h3{margin:0 0 8px;font-size:18px}.card p{margin:0;color:var(--muted)}.card ul{margin:10px 0 0;padding-right:20px;color:var(--muted)}
+.workflow{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.step{background:linear-gradient(145deg,#fff,#f8f3ff);border:1px solid var(--line);border-radius:18px;padding:17px;min-height:110px;display:flex;flex-direction:column;gap:8px}.step span{font-size:12px;color:#a17cde;font-weight:900}.step b{font-size:14px}
+.stack{display:flex;flex-wrap:wrap;gap:9px}.stack span{background:linear-gradient(110deg,#f4edff,#fff0f7,#eafffc);border-color:#e8dcf4}
+.callout{margin:30px 0;padding:25px;border-radius:22px;background:linear-gradient(110deg,#eee5ff,#fff0f7,#e4fbf7);display:flex;align-items:center;justify-content:space-between;gap:18px}
+footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+@media(max-width:700px){.hero-row,.grid{grid-template-columns:1fr}.hero-art{min-height:180px}.workflow{grid-template-columns:repeat(2,1fr)}.callout{align-items:flex-start;flex-direction:column}}
+</style>
+<style id="elai-case-dark-mobile">
+:root{--ink:#fbf7ff;--muted:#d0c3e7;--paper:#0b0719;--line:#ffffff2b;--shadow:0 18px 55px #0008}
+html,body{background:#0b0719!important;color:#fbf7ff!important;max-width:100%;overflow-x:hidden}
+body{background:radial-gradient(ellipse at 10% 8%,#641a8c66,transparent 35%),radial-gradient(ellipse at 90% 30%,#07566a55,transparent 34%),#0b0719!important}
+header{background:#0b0719ee!important;border-color:#ffffff24!important}
+.hero:before{background:#8c52ff44!important}.hero:after{background:#00d6c833!important}
+.subtitle,.section-intro,.card p,.card ul,footer{color:#d0c3e7!important}
+.eyebrow,.meta span,.stack span{background:#211735!important;color:#f6eaff!important;border-color:#ffffff30!important}
+.card,.step{background:linear-gradient(145deg,#271843ee,#110d27ee)!important;color:#fff!important;border-color:#ffffff2b!important;box-shadow:0 18px 50px #0006!important}
+.step{background:linear-gradient(145deg,#271843,#110d27)!important}
+.callout{background:linear-gradient(110deg,#291448,#102d3d,#321333)!important;color:#fff!important}
+.callout div{color:#d0c3e7!important}
+footer{border-color:#ffffff24!important}
+@media(max-width:700px){
+ .wrap{width:calc(100% - 28px)!important}
+ .nav{height:auto;min-height:64px;gap:8px;flex-wrap:wrap;padding:10px 0}
+ .hero{padding:38px 0 30px}
+ .hero-row{grid-template-columns:minmax(0,1fr)!important;gap:20px}
+ .hero-art{min-height:170px!important;max-height:210px}
+ h1{font-size:clamp(27px,8vw,40px)!important;overflow-wrap:anywhere}
+ .subtitle{font-size:15px}
+ .grid{grid-template-columns:minmax(0,1fr)!important}
+ .workflow{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .card{padding:18px!important}
+ .callout{align-items:flex-start;flex-direction:column}
+}
+@media(max-width:390px){.workflow{grid-template-columns:minmax(0,1fr)!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="index.html"><span class="mark">E.</span> ElAi</a><a class="btn" href="index.html#projects">بازگشت به نمونه‌کارها ↗</a></div></header>
+<main>
+<div class="hero"><div class="wrap hero-row"><div>
+<span class="eyebrow">مطالعه موردی پروژه · CASE STUDY</span>
+<h1>اتوماسیون هوشمند سفارش کیک و شیرینی با بله</h1><p class="subtitle">یک گردش‌کار یکپارچه برای دریافت سفارش، کمک به انتخاب محصول و هماهنگی فرایند سفارش در قنادی.</p>
+<div class="meta"><span>طراحی و پیاده‌سازی گردش‌کار</span><span>هوش مصنوعی و اتوماسیون</span><span>نمونه‌کار ElAi</span></div>
+<a class="btn" href="https://github.com/elzakizade/ElBakeri_Bale_Cake_Order_Automation" target="_blank" rel="noopener noreferrer">مشاهده مخزن و کد پروژه در GitHub ↗</a>
+</div><div class="hero-art" aria-hidden="true"><span>🎂</span></div></div></div>
+<div class="wrap">
+<section><h2 class="section-title">معرفی پروژه</h2><p class="section-intro">این پروژه یک گردش‌کار n8n برای قنادی ElBakeri است که پیام‌رسان بله را به فرایند سفارش متصل می‌کند. در توضیحات مخزن، قابلیت‌هایی مانند سفارش هوشمند کیک و شیرینی، تخمین وزن کیک، تولید تصویر و ارسال اعلان برای مدیر ذکر شده‌اند.</p></section>
+<div class="grid">
+<article class="card"><h3>مسئله و نیاز</h3><p>ثبت سفارش کیک معمولاً به تبادل چندباره پیام برای مشخص‌کردن نوع محصول، وزن و جزئیات ظاهری نیاز دارد. پیگیری دستی سفارش‌ها و انتقال اطلاعات به مدیر نیز می‌تواند فرایند را کند و مستعد خطا کند.</p></article>
+<article class="card"><h3>راهکار طراحی‌شده</h3><p>طراحی گردش‌کاری که پیام مشتری را از طریق ربات بله دریافت کند، از قابلیت‌های هوش مصنوعی برای کمک به ثبت سفارش و تخمین وزن استفاده کند و در ادامه تصویر پیشنهادی را برای مشتری بفرستد و مدیر را از سفارش مطلع سازد.</p></article>
+</div>
+<section><h2 class="section-title">گردش‌کار در یک نگاه</h2><p class="section-intro">نمایی مفهومی از مراحل اصلی سیستم بر اساس توضیحات مخزن عمومی پروژه.</p><div class="workflow"><div class="step"><span>01</span><b>دریافت پیام و درخواست مشتری در بله</b></div><div class="step"><span>02</span><b>کمک هوش مصنوعی به ثبت سفارش و تخمین وزن</b></div><div class="step"><span>03</span><b>تولید تصویر پیشنهادی کیک یا شیرینی</b></div><div class="step"><span>04</span><b>ارسال تصویر به مشتری و اعلان سفارش به مدیر</b></div></div></section>
+<section><h2 class="section-title">قابلیت‌های کلیدی</h2><div class="card"><ul><li>اتصال ربات پیام‌رسان بله</li><li>سفارش‌گیری هوشمند کیک و شیرینی</li><li>تخمین وزن کیک</li><li>تولید تصویر با هوش مصنوعی</li><li>ارسال خودکار تصویر به مشتری</li><li>اعلان سفارش برای مدیر</li></ul></div></section>
+<section><h2 class="section-title">فناوری‌ها و ابزارها</h2><div class="stack"><span>n8n</span><span>Bale Messenger Bot</span><span>AI-assisted Ordering</span><span>Image Generation</span><span>Workflow Automation</span></div></section>
+<div class="grid">
+<article class="card"><h3>ارزش و کاربرد</h3><p>این راهکار می‌تواند مسیر ثبت سفارش را برای مشتری ساده‌تر کند و اطلاعات سفارش را سریع‌تر در اختیار مدیر قرار دهد. همچنین تولید و ارسال تصویر پیشنهادی به شفاف‌ترشدن انتظار مشتری از محصول کمک می‌کند.</p></article>
+<article class="card"><h3>وضعیت مستندات</h3><p>قابلیت‌های این مطالعه موردی بر اساس README عمومی مخزن نوشته شده‌اند. جزئیات اتصال‌ها، متغیرهای محیطی و راه‌اندازی در مستندات پروژه قرار دارد؛ برای بررسی نسخه اجرایی و تنظیمات به مخزن مراجعه کنید.</p></article>
+</div>
+<div class="callout"><div><b>می‌خواهید جزئیات فنی و کد را بررسی کنید؟</b><div style="color:#655a72;font-size:13px">مخزن عمومی پروژه در GitHub در دسترس است.</div></div><a class="btn" href="https://github.com/elzakizade/ElBakeri_Bale_Cake_Order_Automation" target="_blank" rel="noopener noreferrer">رفتن به GitHub ↗</a></div>
+</div></main>
+<footer><div class="wrap foot"><span>© ElAi · Elham Zakizadeh</span><a href="index.html#contact">ارتباط و شروع همکاری</a></div></footer>
+</body></html>

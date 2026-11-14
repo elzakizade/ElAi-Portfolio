@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="elai-avatar.webp" as="image" type="image/webp">
+<meta name="description" content="ElAi؛ خدمات تحلیل داده، هوش مصنوعی، اتوماسیون n8n، طراحی وب و ساخت ربات تلگرام و بله برای کسب‌وکارها. ایده‌تان را به راهکاری کاربردی تبدیل می‌کنیم.">
+<meta name="theme-color" content="#fff8fd">
+<title>ElAi | AI, Data & Digital Solutions</title>
+
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="author" content="ElAi">\n<!-- پس از افزودن سایت به Google Search Console، تگ google-site-verification دریافتی را اینجا قرار بده. -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:title" content="ElAi | ایده‌های شما را واقعی می‌کنیم">
+<meta property="og:description" content="تحلیل داده، هوش مصنوعی، اتوماسیون n8n، طراحی وب و ساخت ربات اختصاصی تلگرام و بله با ElAi.">
+<meta property="og:image" content="elham-avatar.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ElAi | AI & Data">
+<meta name="twitter:description" content="ElAi؛ ایده‌های شما را به راهکارهای دیجیتال تبدیل می‌کنیم.">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"ElAi",
+  "alternateName":"ElAi Digital Solutions",
+  "description":"AI solutions, data analytics, machine learning, n8n workflow automation, web development, and custom Telegram and Bale messenger bot development.",
+  "url":"https://elham-zakizadeh-portfolio-2027.vercel.app",
+  "knowsAbout":["Data Analytics","Python Development","Data Mining","Artificial Intelligence","Machine Learning","n8n Workflow Automation","Telegram Bot Development","Bale Messenger Bot Development","Web Development","Digital Solutions"]
+}
+</script>
+<style>
+
+:root{--ink:#352b49;--muted:#5f566d;--purple:#9271e8;--pink:#f28fbd;--cyan:#67d9d5;--yellow:#ffd66b;--mint:#a7e8c9;--paper:#fffafd;--line:#f0e7f5;--shadow:0 18px 55px #7654a51a}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--paper);color:var(--ink);font-family:Vazirmatn,Tahoma,sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}.wrap{width:min(1120px,calc(100% - 36px));margin:auto}.blob{position:fixed;z-index:-1;filter:blur(65px);opacity:.36;border-radius:50%;pointer-events:none}.b1{width:240px;height:240px;background:#f9c8e1;top:10%;right:-90px}.b2{width:280px;height:280px;background:#c9c1ff;bottom:8%;left:-120px}.b3{width:170px;height:170px;background:#b8f0e6;top:55%;right:45%}
+header{position:sticky;top:0;z-index:20;background:#fffafde8;backdrop-filter:blur(16px);border-bottom:1px solid #f3eaf5}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-weight:900;font-size:19px;white-space:nowrap}.brand b{color:var(--purple)}.brand-mark{display:inline-grid;place-items:center;width:35px;height:35px;border-radius:13px;background:linear-gradient(135deg,var(--purple),var(--pink));color:white;margin-left:8px}.links{display:flex;gap:18px;align-items:center}.links a{font-size:12px;color:#756a85;font-weight:700}.links a:hover{color:var(--purple)}.cta,.btn{border:0;border-radius:14px;padding:12px 18px;background:linear-gradient(110deg,var(--purple),var(--pink));color:white;font-weight:800;box-shadow:0 9px 22px #b18ce844;display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer}.menu{display:none;border:0;background:#f5effb;border-radius:12px;padding:10px;color:var(--ink)}
+.hero{min-height:610px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:35px;padding-top:45px;padding-bottom:60px;position:relative}.hello{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;background:white;border:1px solid var(--line);border-radius:99px;color:#8c70d4;font-size:12px;font-weight:800;box-shadow:var(--shadow)}.dot{width:8px;height:8px;background:#75d7ae;border-radius:50%;box-shadow:0 0 0 5px #75d7ae22}.hero h1{font-size:clamp(34px,5vw,57px);line-height:1.35;margin:20px 0 6px;font-weight:900}.hero h1 span{background:linear-gradient(90deg,#9872e8,#f18db8,#55c9c5);background-clip:text;color:transparent}.hero h2{font-size:clamp(19px,2.5vw,27px);margin:0 0 15px}.hero h2 em{font-style:normal;color:#9a78df}.lead{font-size:15px;line-height:2.2;color:var(--muted);max-width:610px}.chips{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0}.chip{padding:8px 13px;border-radius:99px;background:white;border:1px solid var(--line);font-size:11px;font-weight:800;color:#76668d}.actions{display:flex;gap:10px;flex-wrap:wrap}.btn.alt{background:white;color:#846bc3;border:1px solid var(--line);box-shadow:none}.social{display:flex;gap:13px;align-items:center;flex-wrap:wrap;margin-top:26px;font-size:12px;color:var(--muted)}.social a{color:#8067c8;font-weight:800}.art{position:relative;display:grid;place-items:center;min-height:460px}.halo{position:absolute;width:min(370px,80vw);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff,#f2eaff 60%,#e5fbf5);box-shadow:inset 0 0 0 1px white,0 25px 70px #9d83d51b}.halo:before,.halo:after{content:"";position:absolute;inset:22px;border:1px dashed #cbb8f0;border-radius:50%;animation:spin 35s linear infinite}.halo:after{inset:48px;border-color:#f5b7d1;animation-direction:reverse}.portrait{position:relative;width:min(320px,76vw);height:auto;border-radius:24px;box-shadow:0 20px 45px #34274a20;animation:float 5s ease-in-out infinite}.spark{position:absolute;font-size:35px;color:#ee8eb7;animation:float 3s ease-in-out infinite}.s1{top:60px;right:10%}.s2{left:8%;top:45%;color:#9b80e6;animation-delay:.7s}.s3{right:15%;bottom:40px;color:#e8bb52;animation-delay:1.2s}.bubble{position:absolute;background:white;border:1px solid var(--line);box-shadow:var(--shadow);border-radius:15px;padding:10px 14px;font-size:12px;font-weight:900;color:#8067c8;animation:float 4s ease-in-out infinite}.bubble.one{top:90px;left:0}.bubble.two{bottom:65px;right:0;animation-delay:1s}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-top:-10px}.stat,.card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:21px;box-shadow:var(--shadow)}.stat{text-align:center}.stat strong{display:block;font-size:23px;color:#8f70d9}.stat small{font-size:11px;color:var(--muted)}
+section.content{padding:85px 0}.tint{background:linear-gradient(135deg,#fbf7ff,#fff7fb)}.heading{text-align:center;margin-bottom:35px}.eyebrow{font-size:11px;font-weight:900;color:#9b7add;letter-spacing:.4px}.heading h2{font-size:30px;margin:9px 0}.heading p{font-size:13px;color:var(--muted);line-height:2;margin:0 auto;max-width:650px}.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:20px}.note{background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:var(--shadow);position:relative}.note h3{margin:0 0 12px}.note p{font-size:13px;line-height:2.2;color:var(--muted)}.values{display:grid;gap:12px}.value{display:flex;align-items:center;gap:14px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:17px}.value i{font-style:normal;width:40px;height:40px;display:grid;place-items:center;background:#f2ecff;color:#9475df;border-radius:13px;font-size:20px}.value b{font-size:13px}.value small{display:block;color:var(--muted);font-size:11px;margin-top:4px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.skill{border-radius:20px;padding:22px;background:white;border:1px solid var(--line);box-shadow:var(--shadow);transition:.25s}.skill:hover,.project:hover{transform:translateY(-5px)}.skill .ico{font-size:25px}.skill h3{font-size:15px;margin:10px 0 5px}.skill p{font-size:11px;color:var(--muted);line-height:1.9;margin:0}.bar{height:7px;background:#f2edf7;border-radius:20px;margin-top:14px;overflow:hidden}.bar span{display:block;height:100%;border-radius:20px;background:linear-gradient(90deg,var(--purple),var(--pink))}.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.project{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow);transition:.25s}.project .project-icon{font-size:30px;background:#f7f1ff;width:58px;height:58px;border-radius:18px;display:grid;place-items:center}.project h3{font-size:15px}.project p{font-size:12px;line-height:2;color:var(--muted)}.project a{font-size:12px;color:#8c70d4;font-weight:900}.callout{margin-top:18px;padding:20px 23px;background:#fff;border:1px solid var(--line);border-radius:18px;display:flex;align-items:center;justify-content:space-between;gap:15px}.callout a{color:#8c70d4;font-weight:900;font-size:12px}
+.experience{display:flex;align-items:center;gap:20px;background:white;border:1px solid var(--line);border-radius:22px;padding:25px;box-shadow:var(--shadow)}.experience .badge{background:#f5efff;color:#8e71d8;border-radius:15px;padding:13px;font-weight:900}.experience p{font-size:13px;color:var(--muted);line-height:2}.duration{margin-right:auto;color:#8e71d8;font-weight:900;white-space:nowrap}
+.education{display:grid;grid-template-columns:1fr 1fr;gap:18px}.education .card h3{margin-top:0}.education p,.education li{font-size:12px;color:var(--muted);line-height:2}.tags{display:flex;flex-wrap:wrap;gap:8px}.tags span{font-size:11px;background:#f6f0ff;color:#8067c8;padding:8px 11px;border-radius:99px}
+.blogs{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.blog{padding:22px;border:1px dashed #d8c9ef;border-radius:20px;background:#fff}.blog b{font-size:14px}.blog p{font-size:12px;color:var(--muted);line-height:2}
+.faq{max-width:780px;margin:auto}.faq details{background:white;border:1px solid var(--line);border-radius:15px;margin:10px 0;padding:16px 18px}.faq summary{cursor:pointer;font-weight:800;font-size:13px}.faq p{font-size:12px;color:var(--muted);line-height:2}
+.contact{display:grid;grid-template-columns:.8fr 1.2fr;gap:20px}.contact-card,.form{background:white;border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:var(--shadow)}.contact-card p{font-size:13px;color:var(--muted);line-height:2}.contact-card a{display:block;padding:12px 0;border-top:1px solid var(--line);font-size:13px;font-weight:800;color:#8067c8}.form label{display:block;font-size:12px;font-weight:800;margin:12px 0}.form input,.form textarea{width:100%;border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:7px;background:#fffaff;color:var(--ink)}.form textarea{min-height:110px;resize:vertical}
+footer{padding:27px 0;background:#342b46;color:white}footer .foot{display:flex;justify-content:space-between;align-items:center;gap:15px}footer p{font-size:11px;color:#d6cde2}.top{position:fixed;bottom:20px;right:20px;border:0;border-radius:50%;width:46px;height:46px;background:linear-gradient(135deg,var(--purple),var(--pink));color:white;font-size:20px;box-shadow:var(--shadow);cursor:pointer;display:none}.top.show{display:block}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:none}
+@keyframes spin{to{transform:rotate(360deg)}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@media(max-width:850px){.links{display:none}.menu{display:block}.links.open{display:flex;position:absolute;top:76px;right:0;left:0;background:white;padding:20px;flex-direction:column;box-shadow:var(--shadow)}.hero{grid-template-columns:1fr;text-align:center}.hero-copy{order:2}.hero-art{order:1;min-height:390px}.chips,.actions,.social{justify-content:center}.lead{margin:auto}.stats{grid-template-columns:repeat(2,1fr)}.about-grid,.contact{grid-template-columns:1fr}.grid3,.projects,.blogs{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.wrap{width:min(100% - 26px,1120px)}.nav{height:68px}.cta{padding:10px 12px;font-size:11px}.brand{font-size:16px}.hero h1{font-size:34px}.lead{font-size:13px}.art{min-height:320px}.halo{width:min(300px,78vw)}.bubble{font-size:10px;padding:8px 10px}.contact-card,.form,.note{padding:18px}.hero{padding-top:20px}.hero-art{min-height:350px}.portrait{width:min(270px,72vw)}.stats,.grid3,.projects,.blogs,.education{grid-template-columns:1fr}.experience{align-items:flex-start;flex-wrap:wrap}.duration{margin-right:0}section.content{padding:60px 0}.heading h2{font-size:25px}footer .foot{flex-direction:column;text-align:center}}
+
+
+/* ElAi contrast refinement */
+:root{--ink:#241b35;--muted:#554b63;--line:#e4d9ed}
+section.content,section.content .heading,section.content .heading h2,
+section.content .heading p,section.content .blog,section.content .blog b,
+section.content .blog p,section.content .faq,section.content .faq summary,
+section.content .faq p,section.content .card,section.content .skill,
+section.content .project,section.content .note,section.content .note p,
+section.content .value,section.content .value p,section.content .contact-card,
+section.content .contact-card p,section.content .form,section.content .form li{
+  color:var(--ink);
+}
+section.content .heading p,section.content .blog p,section.content .faq p,
+section.content .note p,section.content .value p,section.content .contact-card p{
+  color:#554b63;
+}
+section.content.tint{background:linear-gradient(135deg,#f3edff 0%,#fff0f7 52%,#eafafa 100%)}
+section.content:not(.tint){background:#fffafd}
+
+</style>
+
+<style id="psychedelic-motion-theme">
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+:root{
+ --ink:#f8f3ff;--muted:#c1b4d9;--purple:#a78bfa;--pink:#ff5ec4;--cyan:#38f5e5;--yellow:#ffe66d;--mint:#63ffd2;
+ --paper:#0b0719;--line:#ffffff22;--shadow:0 20px 65px #0008;
+ --psy-bg:#0b0719;--psy-card:#17102b;--psy-glass:#ffffff0d;
+}
+html{scroll-behavior:smooth;background:var(--psy-bg)}
+body{background:radial-gradient(ellipse at 15% 10%,#42156c66,transparent 35%),radial-gradient(ellipse at 85% 25%,#073c5866,transparent 32%),radial-gradient(ellipse at 60% 90%,#64104455,transparent 38%),var(--psy-bg);color:var(--ink);font-family:Vazirmatn,Tahoma,sans-serif}
+body:before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;opacity:.12;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E")}
+.blob{opacity:.55;filter:blur(85px);mix-blend-mode:screen;animation:blob-drift 18s ease-in-out infinite alternate}
+.b1{background:#ff39c9}.b2{background:#643cff;animation-delay:-6s}.b3{background:#00e7dc;animation-delay:-11s}
+@keyframes blob-drift{0%{transform:translate3d(-25px,-15px,0) scale(.85)}50%{transform:translate3d(35px,25px,0) scale(1.2)}100%{transform:translate3d(-10px,45px,0) scale(1)}}
+header{background:#0b0719c9;border-bottom:1px solid #ffffff1a;box-shadow:0 8px 35px #0003}
+.brand,.links a{color:#f8f3ff}.brand b{color:var(--cyan)}.brand-mark{background:linear-gradient(135deg,var(--pink),#7c4dff,var(--cyan));box-shadow:0 0 25px #c14cff77}
+.links a:hover{color:var(--cyan)}
+.cta,.btn,.idea-submit{background:linear-gradient(110deg,#8c52ff,#ff3eae 52%,#00d9d0);box-shadow:0 8px 30px #a13cff55;color:white}
+.btn.alt{background:#ffffff0b;color:#fff;border:1px solid #ffffff38}
+.hello,.chip,.stat,.card,.note,.value,.skill,.project,.experience,.education .card,.blog,.faq details,.contact-card,.form,.callout{
+ background:linear-gradient(145deg,#ffffff13,#ffffff05);border:1px solid #ffffff20;color:#f8f3ff;box-shadow:0 16px 50px #0003;backdrop-filter:blur(16px)
+}
+.hello{color:var(--cyan)}.dot{background:var(--mint);box-shadow:0 0 16px var(--mint)}
+.hero h1 span{background:linear-gradient(100deg,#fff36b,#ff61bd,#a78bfa,#36f6e5);background-size:250% 250%;animation:psy-gradient 7s ease infinite;background-clip:text;color:transparent}
+@keyframes psy-gradient{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.hero h2 em,.project a,.callout a,.contact-card a{color:var(--cyan)}
+.lead,.heading p,.note p,.skill p,.project p,.experience p,.education p,.education li,.blog p,.contact-card p,.faq p{color:#c7badc}
+.value i,.project .project-icon,.tags span,.experience .badge{background:#a78bfa22;color:#e4d8ff}
+.bar{background:#ffffff20}.bar span{background:linear-gradient(90deg,var(--cyan),var(--pink),var(--yellow))}
+footer{background:#05030d;border-top:1px solid #ffffff20}
+footer p{color:#bfb0d6}
+.menu{background:#ffffff17;color:white}.top{background:linear-gradient(135deg,#a78bfa,#ff5ec4,#38f5e5)}
+/* Motion graphic portrait composition */
+.psychedelic-art{isolation:isolate;perspective:1000px}
+.psychedelic-art .halo{width:min(390px,82vw);background:radial-gradient(circle at 35% 28%,#ff55cf33,#6b3cff33 48%,#00e6d533 72%,transparent 74%);box-shadow:0 0 70px #a93cff66,inset 0 0 50px #ed43ff25;border:1px solid #ffffff2c;animation:halo-pulse 5s ease-in-out infinite}
+@keyframes halo-pulse{0%,100%{transform:scale(.94);filter:hue-rotate(0)}50%{transform:scale(1.06);filter:hue-rotate(45deg)}}
+.psychedelic-art .halo:before{inset:-20px;border:2px dashed #ff5ec4;box-shadow:0 0 22px #ff5ec477;animation:spin 22s linear infinite}
+.psychedelic-art .halo:after{inset:-43px;border:1px dotted #38f5e5;box-shadow:0 0 24px #38f5e566;animation:spin 30s linear infinite reverse}
+.psy-orbit{position:absolute;z-index:1;left:50%;top:50%;border:1px solid transparent;border-radius:50%;pointer-events:none}
+.orbit-a{width:430px;height:230px;transform:translate(-50%,-50%) rotate(-28deg);border-top:2px solid #ff5ec4;border-bottom:2px solid #38f5e5;filter:drop-shadow(0 0 9px #ff5ec4);animation:orbit-spin 13s linear infinite}
+.orbit-b{width:390px;height:290px;transform:translate(-50%,-50%) rotate(52deg);border-left:2px solid #ffe66d;border-right:2px solid #a78bfa;filter:drop-shadow(0 0 8px #a78bfa);animation:orbit-spin 19s linear infinite reverse}
+.orbit-c{width:470px;height:350px;transform:translate(-50%,-50%) rotate(8deg);border:1px dashed #ffffff66;animation:orbit-spin 35s linear infinite}
+.psy-ring{position:absolute;z-index:0;width:330px;height:330px;border-radius:50%;background:conic-gradient(from 0deg,#ff5ec4,#ffe66d,#38f5e5,#8c52ff,#ff5ec4);filter:blur(1px);opacity:.22;animation:spin 12s linear infinite;mask:radial-gradient(circle,transparent 58%,#000 60%,#000 63%,transparent 66%)}
+.portrait{z-index:3;border:1px solid #ffffff66;outline:5px solid #ffffff0d;box-shadow:0 0 0 1px #38f5e5,0 0 30px #ff5ec477,0 0 85px #7045ff88;animation:portrait-float 5s ease-in-out infinite, portrait-glow 8s linear infinite}
+@keyframes portrait-float{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-16px) rotate(1.5deg)}}
+@keyframes portrait-glow{0%,100%{box-shadow:0 0 0 1px #38f5e5,0 0 30px #ff5ec477,0 0 85px #7045ff88}50%{box-shadow:0 0 0 2px #ffe66d,0 0 42px #38f5e599,0 0 100px #ff42b588}}
+.spark{z-index:4;text-shadow:0 0 18px currentColor;filter:drop-shadow(0 0 8px currentColor)}
+.bubble{z-index:5;background:#170d2cdd;border:1px solid #ffffff40;color:#fff;box-shadow:0 0 25px #8c52ff66;backdrop-filter:blur(14px)}
+/* Page-to-page / section motion */
+.content,.hero{position:relative}
+.section-wipe{position:fixed;inset:0;z-index:9998;pointer-events:none;opacity:0;background:conic-gradient(from 90deg at 50% 50%,#ff3eae,#7045ff,#00e6d5,#ffe66d,#ff3eae);transform:scale(.02) rotate(-25deg);border-radius:50%;transition:transform .65s cubic-bezier(.7,0,.2,1),opacity .2s}
+.section-wipe.active{opacity:.22;transform:scale(2.8) rotate(35deg)}
+.reveal{opacity:0;transform:translateY(35px) scale(.975);filter:blur(7px);transition:opacity .85s cubic-bezier(.2,.8,.2,1),transform .85s cubic-bezier(.2,.8,.2,1),filter .85s}
+.reveal.visible{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}
+.skill,.project,.value,.stat,.blog{transition:transform .45s cubic-bezier(.2,.8,.2,1),border-color .35s,box-shadow .35s}
+.skill:hover,.project:hover,.value:hover,.stat:hover,.blog:hover{transform:translateY(-8px) rotateX(2deg);border-color:#ff5ec4;box-shadow:0 0 0 1px #ff5ec455,0 18px 55px #7e36ff44}
+#lang-toggle{border:1px solid #ffffff55;border-radius:999px;padding:9px 13px;background:#ffffff12;color:white;font:800 11px 'Space Grotesk',Vazirmatn,sans-serif;cursor:pointer;box-shadow:0 0 18px #9a52ff55}
+#lang-toggle:hover{background:#ffffff24;transform:translateY(-2px)}
+/* Chat panel inherits psychedelic palette */
+#idea-panel{background:#130c25;border-color:#ffffff30;color:#fff;box-shadow:0 25px 90px #000b,0 0 35px #934cff55}
+.idea-head{background:linear-gradient(110deg,#54258a,#9b286e,#075b67);color:white}
+.idea-head small,.idea-note,.idea-status{color:#c7badc}
+.idea-close,.idea-tabs button,.idea-compose textarea,.idea-order input,.idea-order select,.idea-order textarea{background:#ffffff0c;color:#fff;border-color:#ffffff30}
+.idea-tabs button.active{background:#8c52ff44;color:#fff;border-color:#ff5ec4}
+.idea-messages{background:#10091f}
+.idea-msg.bot{background:#6f42aa55;color:#fff}.idea-msg.user{background:#007e7966;color:#fff}
+.idea-order label{color:#f6edff}
+.idea-compose{border-color:#ffffff20}
+.idea-send{background:linear-gradient(120deg,#8c52ff,#ff3eae)}
+.idea-submit{background:linear-gradient(120deg,#8c52ff,#ff3eae,#00bfb5)}
+html[dir="ltr"] body{font-family:'Space Grotesk',Arial,sans-serif}
+html[dir="ltr"] .wrap{text-align:left}
+html[dir="ltr"] .nav,html[dir="ltr"] .social,html[dir="ltr"] .actions{direction:ltr}
+html[dir="ltr"] .idea-panel,html[dir="ltr"] #idea-panel{direction:ltr}
+html[dir="ltr"] .idea-msg{direction:ltr;text-align:left}
+@media(max-width:850px){.orbit-a{width:360px;height:205px}.orbit-b{width:335px;height:250px}.orbit-c{width:390px;height:300px}}
+@media(max-width:560px){.psychedelic-art .halo{width:min(290px,78vw)}.orbit-a{width:310px;height:175px}.orbit-b{width:290px;height:220px}.orbit-c{width:330px;height:260px}.psy-ring{width:260px;height:260px}.portrait{max-width:260px}.section-wipe{display:none}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+</style>
+
+
+<style id="chat-contrast-fix">
+/* High-contrast psychedelic assistant panel */
+#idea-panel{
+  background:linear-gradient(145deg,rgba(18,12,39,.98),rgba(27,12,48,.98)) !important;
+  color:#fff !important;border:1px solid rgba(202,165,255,.55) !important;
+  box-shadow:0 24px 90px rgba(0,0,0,.72),0 0 38px rgba(173,92,255,.35) !important;
+  backdrop-filter:blur(22px) saturate(145%) !important;
+}
+#idea-panel *{box-sizing:border-box}
+#idea-panel .idea-head{
+  background:linear-gradient(110deg,#54258a,#922b79 55%,#075b67) !important;
+  color:#fff !important;border-bottom:1px solid rgba(255,255,255,.17) !important;
+}
+#idea-panel .idea-head strong{color:#fff !important;font-size:14px !important}
+#idea-panel .idea-head small{color:#f0ddff !important}
+#idea-panel .idea-close{
+  background:rgba(255,255,255,.13) !important;color:#fff !important;
+  border:1px solid rgba(255,255,255,.28) !important;
+}
+#idea-panel .idea-tabs{background:rgba(10,6,25,.7) !important;border-color:rgba(255,255,255,.14) !important}
+#idea-panel .idea-tabs button{
+  background:rgba(255,255,255,.08) !important;color:#eee4ff !important;
+  border:1px solid rgba(255,255,255,.22) !important;
+}
+#idea-panel .idea-tabs button.active{
+  background:linear-gradient(110deg,rgba(151,89,255,.5),rgba(255,65,174,.28)) !important;
+  border-color:#e1a8ff !important;color:#fff !important;
+  box-shadow:0 0 18px rgba(178,92,255,.24) !important;
+}
+#idea-panel .idea-messages{background:linear-gradient(180deg,#10091f,#17102b) !important}
+#idea-panel .idea-msg{color:#fff !important;opacity:1 !important;font-size:13px !important;line-height:2 !important}
+#idea-panel .idea-msg.bot{
+  background:linear-gradient(135deg,rgba(116,68,185,.68),rgba(78,42,125,.82)) !important;
+  border:1px solid rgba(207,164,255,.38) !important;color:#fff !important;
+}
+#idea-panel .idea-msg.user{
+  background:linear-gradient(135deg,rgba(0,139,139,.68),rgba(16,103,123,.78)) !important;
+  border:1px solid rgba(100,245,224,.35) !important;color:#fff !important;
+}
+#idea-panel .idea-compose{background:#10091f !important;border-top:1px solid rgba(255,255,255,.16) !important}
+#idea-panel .idea-compose textarea,
+#idea-panel .idea-order input:not([type=checkbox]),
+#idea-panel .idea-order select,
+#idea-panel .idea-order textarea{
+  background:#211735 !important;color:#fff !important;
+  border:1px solid rgba(196,158,255,.48) !important;
+  caret-color:#65ffe2 !important;
+}
+#idea-panel textarea::placeholder,
+#idea-panel input::placeholder{color:#c8b9df !important;opacity:1 !important}
+#idea-panel .idea-send,#idea-panel .idea-submit{
+  background:linear-gradient(110deg,#8755ff,#e83caa 58%,#00b9b2) !important;
+  color:#fff !important;border:0 !important;
+  box-shadow:0 5px 22px rgba(160,75,255,.28) !important;
+}
+#idea-panel .idea-note,#idea-panel .idea-status{
+  color:#d2c5e7 !important;opacity:1 !important;
+}
+#idea-panel .idea-order{background:#130c24 !important;color:#fff !important}
+#idea-panel .idea-order label{color:#fff !important}
+#idea-panel .idea-order label input[type=checkbox]{accent-color:#b36aff}
+#idea-panel .idea-order .idea-submit{font-weight:800 !important}
+#idea-launcher{
+  background:linear-gradient(110deg,#8755ff,#e83caa 58%,#00b9b2) !important;
+  color:#fff !important;border:1px solid rgba(255,255,255,.28) !important;
+  box-shadow:0 8px 28px rgba(143,65,255,.4) !important;
+}
+@media(max-width:560px){
+ #idea-panel{left:8px !important;right:8px !important;width:auto !important}
+}
+</style>
+
+
+<style id="elai-unified-psychedelic-theme">
+/* ONE continuous dark psychedelic identity across the entire website */
+:root{
+ --ink:#fbf7ff !important; --muted:#d0c3e7 !important;
+ --purple:#a78bfa !important; --pink:#ff5ec4 !important;
+ --cyan:#38f5e5 !important; --yellow:#ffe66d !important;
+ --mint:#63ffd2 !important; --paper:#0b0719 !important;
+ --line:#ffffff2b !important; --shadow:0 18px 55px #0008 !important;
+}
+html,body{background:#0b0719 !important;color:#fbf7ff !important}
+body{
+ background:
+  radial-gradient(ellipse at 12% 8%,#641a8c66,transparent 34%),
+  radial-gradient(ellipse at 88% 24%,#07566a66,transparent 32%),
+  radial-gradient(ellipse at 52% 90%,#78104e55,transparent 38%),
+  #0b0719 !important;
+ color:#fbf7ff !important;
+}
+header,.links.open{
+ background:rgba(11,7,25,.94) !important;
+ border-color:#ffffff24 !important;
+ box-shadow:0 10px 35px #0006 !important;
+ backdrop-filter:blur(20px) saturate(150%) !important;
+}
+.brand,.brand span,.brand b,.links a,.links a:hover{color:#fbf7ff !important}
+.brand b,.links a:hover{color:#38f5e5 !important}
+.menu{background:#ffffff12 !important;color:#fff !important;border:1px solid #ffffff2b !important}
+section.content,section.content.tint,section.content:not(.tint){
+ background:transparent !important;
+ color:#fbf7ff !important;
+}
+section.content:nth-of-type(even){
+ background:linear-gradient(110deg,#160d2b66,#071d2a66,#24102d66) !important;
+ border-top:1px solid #ffffff0d !important;
+ border-bottom:1px solid #ffffff0d !important;
+}
+section.content .heading,section.content .heading h2,section.content h2,
+section.content h3,section.content b,section.content strong,
+section.content summary,section.content label,section.content li{
+ color:#fbf7ff !important;
+}
+section.content .heading p,section.content p,
+section.content .blog p,section.content .faq p,
+section.content .note p,section.content .value p,
+section.content .contact-card p,section.content .skill p,
+section.content .project p,section.content .experience p,
+section.content .education p,section.content .education li{
+ color:#d0c3e7 !important;
+}
+.hello,.chip,.stat,.card,.note,.value,.skill,.project,.experience,
+.education .card,.blog,.faq details,.contact-card,.form,.callout,
+.tags span,.experience .badge{
+ background:linear-gradient(145deg,rgba(39,24,67,.88),rgba(17,13,39,.91)) !important;
+ border:1px solid #ffffff2b !important;
+ color:#fbf7ff !important;
+ box-shadow:0 16px 50px #0006,0 0 18px #8d4bff12 !important;
+ backdrop-filter:blur(18px) saturate(145%) !important;
+}
+.note p,.value p,.skill p,.project p,.blog p,.faq p,
+.contact-card p,.education p,.education li{color:#d0c3e7 !important}
+.value i,.project .project-icon,.tags span,.experience .badge{
+ background:linear-gradient(135deg,#8c52ff55,#ff3eae33,#00d9d033) !important;
+ color:#f7eaff !important;border:1px solid #ffffff22 !important;
+}
+.callout{background:linear-gradient(110deg,#291448dd,#102d3ddd,#321333dd) !important}
+.callout a,.project a,.contact-card a{color:#55f6e4 !important}
+.bar{background:#ffffff20 !important}
+.bar span{background:linear-gradient(90deg,#38f5e5,#ff5ec4,#ffe66d) !important}
+.hero h2,.hero h2 em{color:#f8f3ff !important}
+.lead,.social{color:#d0c3e7 !important}
+.hello{background:#211239dd !important;color:#63ffd2 !important}
+.chip{background:#1b1232dd !important;color:#f6edff !important}
+.btn.alt{background:#ffffff0c !important;color:#fff !important;border:1px solid #ffffff40 !important}
+.halo{
+ background:radial-gradient(circle at 35% 28%,#ff55cf22,#6b3cff22 48%,#00e6d522 72%,transparent 74%) !important;
+ border:1px solid #ffffff22 !important;
+ box-shadow:0 0 70px #a93cff55,inset 0 0 50px #ed43ff20 !important;
+}
+.halo:before{border-color:#ff5ec4 !important}
+.halo:after{border-color:#38f5e5 !important}
+.bubble{background:#170d2cee !important;color:#fff !important;border-color:#ffffff44 !important}
+.form input,.form textarea,.idea-compose textarea,
+.idea-order input,.idea-order select,.idea-order textarea{
+ background:#211735 !important;color:#fff !important;border:1px solid #ffffff38 !important;
+}
+.form input::placeholder,.form textarea::placeholder,
+.idea-compose textarea::placeholder{color:#cbbce0 !important;opacity:1 !important}
+.faq details{background:linear-gradient(145deg,#211338,#120d27) !important}
+.faq summary{color:#fff !important}
+footer{background:#05030d !important;color:#fff !important;border-top:1px solid #ffffff24 !important}
+footer p{color:#d0c3e7 !important}
+#idea-panel{background:linear-gradient(145deg,#120b27,#1b1035) !important;color:#fff !important}
+#idea-panel .idea-messages{background:#10091f !important}
+#idea-panel .idea-compose{background:#10091f !important}
+#idea-launcher{color:#fff !important}
+.top{color:#fff !important}
+::selection{background:#ff5ec4;color:#fff}
+@media(max-width:850px){
+ .links.open{background:rgba(11,7,25,.98) !important}
+ .links.open a{color:#fff !important}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+</style>
+
+
+<style id="elai-portfolio-links">
+#projects .projects{grid-template-columns:repeat(2,minmax(0,1fr))}
+#projects .project{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+#projects .project p{line-height:2}
+#projects .project .tags{display:flex;flex-wrap:wrap;gap:8px}
+#projects .project .tags span,.social-links a{
+ display:inline-flex;align-items:center;padding:7px 12px;border-radius:999px;
+ color:#f8edff!important;background:linear-gradient(110deg,#7139a855,#b52e8b44,#008c9a44)!important;
+ border:1px solid #ffffff35!important;font-size:.82rem
+}
+#projects .project>a{margin-top:auto}
+.social-links{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0}
+.social-links a{color:#65f5e4!important;text-decoration:none}
+@media(max-width:700px){#projects .projects{grid-template-columns:1fr}}
+</style>
+
+<style id="elai-nav-popup-fix">
+html{scroll-padding-top:105px}
+section[id]{scroll-margin-top:100px}
+#navlinks a{cursor:pointer}
+#navlinks a:focus-visible{outline:2px solid #38f5e5;outline-offset:5px;border-radius:6px}
+#idea-notice{
+ position:fixed;left:22px;bottom:22px;z-index:1002;width:min(340px,calc(100vw - 28px));
+ display:flex;align-items:center;gap:12px;padding:13px 14px;border-radius:18px;
+ color:#fff;background:linear-gradient(125deg,rgba(49,25,85,.97),rgba(20,39,67,.97));
+ border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 55px #0008,0 0 28px #a34cff55;
+ backdrop-filter:blur(18px);transform:translateY(22px) scale(.96);opacity:0;
+ pointer-events:none;transition:opacity .35s ease,transform .35s ease;
+}
+#idea-notice.show{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
+#idea-notice .notice-icon{flex:0 0 42px;height:42px;border-radius:14px;display:grid;place-items:center;
+ background:linear-gradient(135deg,#8c52ff,#ff4db8,#00cfc2);font-size:21px}
+#idea-notice .notice-copy{flex:1;min-width:0}
+#idea-notice strong{display:block;font-size:12px;color:#fff}
+#idea-notice small{display:block;font-size:10px;color:#d8c9ef;margin-top:3px;line-height:1.6}
+#idea-notice .notice-open{border:0;border-radius:11px;padding:8px 10px;background:linear-gradient(110deg,#8c52ff,#e83caa);
+ color:#fff;font:800 11px Vazirmatn,Tahoma,sans-serif;cursor:pointer;white-space:nowrap}
+#idea-notice .notice-dismiss{position:absolute;top:5px;left:7px;border:0;background:transparent;color:#d8c9ef;cursor:pointer;font-size:15px}
+#idea-launcher{bottom:22px}
+@media(max-width:560px){
+ #idea-notice{left:12px;right:12px;bottom:14px;width:auto}
+ #idea-launcher{left:12px;bottom:14px}
+ #idea-panel{bottom:76px}
+}
+@media(prefers-reduced-motion:reduce){#idea-notice{transition:none}}
+</style>
+
+<style id="elai-mobile-layout-overhaul">
+/* Mobile-first repair: prevent overflow, collisions and compressed desktop grids */
+*,*::before,*::after{box-sizing:border-box}
+html,body{width:100%;max-width:100%;overflow-x:hidden}
+body{min-width:320px}
+img,svg,video,canvas{max-width:100%;height:auto}
+.wrap{width:min(100% - 28px,1120px)!important;margin-inline:auto!important}
+header{width:100%;max-width:100%;left:0;right:0}
+.nav{width:100%;min-width:0;gap:8px}
+.brand{flex:0 1 auto;min-width:0;font-size:clamp(13px,3.8vw,18px)!important}
+.brand-mark{flex:0 0 32px}
+.nav .cta{white-space:nowrap;flex:0 0 auto}
+.menu,.lang-toggle{flex:0 0 auto}
+.hero,.about-grid,.contact,.grid3,.projects,.blogs,.stats,.education,
+.workflow,.hero-row{min-width:0}
+.project,.skill,.card,.note,.value,.blog,.contact-card,.form{min-width:0;max-width:100%}
+.project p,.skill p,.card p,.lead{overflow-wrap:anywhere}
+section[id]{scroll-margin-top:82px}
+@media(max-width:850px){
+ .nav{height:68px!important;justify-content:space-between;gap:7px}
+ .links.open{top:68px!important;right:10px!important;left:10px!important;width:auto!important;
+   max-height:calc(100dvh - 90px);overflow-y:auto;z-index:30;border:1px solid #ffffff30;border-radius:18px}
+ .links.open a{width:100%;padding:10px 12px;border-bottom:1px solid #ffffff12;font-size:14px}
+ .hero{grid-template-columns:minmax(0,1fr)!important;gap:18px!important;min-height:0!important;padding:28px 0 42px!important}
+ .hero-copy{order:2;min-width:0}
+ .hero-art{order:1;width:100%;min-width:0;min-height:300px!important}
+ .hero h1{font-size:clamp(30px,8vw,46px)!important;overflow-wrap:anywhere}
+ .hero h2{font-size:clamp(18px,4.8vw,24px)!important}
+ .lead{max-width:100%;font-size:14px;line-height:2}
+ .chips{gap:8px;flex-wrap:wrap}
+ .actions{flex-wrap:wrap}
+ .about-grid,.contact{grid-template-columns:minmax(0,1fr)!important}
+ .grid3,.projects,.blogs,.stats,.education{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .experience{min-width:0;gap:12px}
+ .duration{white-space:normal}
+ .callout{flex-wrap:wrap}
+}
+@media(max-width:560px){
+ .wrap{width:calc(100% - 28px)!important}
+ .nav{height:64px!important}
+ .brand{font-size:13px!important;gap:4px}
+ .brand-mark{width:29px;height:29px;margin-left:3px}
+ .nav .cta{font-size:10px!important;padding:9px 10px!important;border-radius:11px}
+ .menu{padding:8px 9px!important}
+ .lang-toggle{padding:7px 9px!important;font-size:10px!important}
+ .links.open{top:64px!important}
+ .hero{padding-top:22px!important}
+ .hero-art{min-height:260px!important}
+ .art{min-height:260px!important}
+ .halo{width:min(270px,76vw)!important}
+ .portrait{width:min(230px,68vw)!important;max-width:100%!important}
+ .orbit-a{width:min(280px,82vw)!important}
+ .orbit-b{width:min(260px,78vw)!important}
+ .orbit-c{width:min(300px,88vw)!important}
+ .bubble{max-width:42vw;font-size:9px!important;white-space:normal}
+ .hero h1{font-size:clamp(29px,9vw,38px)!important;line-height:1.45}
+ .hero h2{line-height:1.7}
+ .chips .chip{font-size:10px;padding:7px 10px}
+ .actions .btn{width:100%;justify-content:center}
+ .stats,.grid3,.projects,.blogs,.education{grid-template-columns:minmax(0,1fr)!important}
+ section.content{padding:44px 0!important}
+ .heading h2{font-size:23px!important;line-height:1.55}
+ .heading p{font-size:13px;line-height:2}
+ .skill,.project,.blog,.contact-card,.form,.note,.value{padding:17px!important}
+ .experience{flex-direction:column;align-items:stretch!important}
+ .experience>*{max-width:100%}
+ .callout{padding:16px!important;align-items:stretch!important}
+ .callout a{max-width:100%;overflow-wrap:anywhere}
+ footer .foot{align-items:center;gap:10px}
+ #idea-notice{left:12px!important;right:12px!important;bottom:12px!important;width:auto!important;
+   padding:11px 12px!important;gap:9px!important}
+ #idea-notice .notice-icon{flex-basis:36px;height:36px}
+ #idea-notice .notice-copy strong{font-size:11px}
+ #idea-notice .notice-copy small{font-size:9px}
+ #idea-notice .notice-open{font-size:10px;padding:8px}
+ #idea-launcher{left:12px!important;bottom:12px!important;max-width:calc(100vw - 24px);
+   white-space:normal;font-size:11px!important;padding:10px 13px!important}
+ #idea-panel{left:8px!important;right:8px!important;bottom:68px!important;width:auto!important;
+   height:min(72dvh,610px)!important;max-height:calc(100dvh - 90px)!important}
+ #idea-panel .idea-compose{gap:7px;padding:9px}
+ #idea-panel .idea-compose textarea{min-width:0;font-size:13px}
+ #idea-panel .idea-send{flex:0 0 auto}
+}
+@media(max-width:380px){
+ .nav{gap:5px}
+ .brand{font-size:11px!important}
+ .nav .cta{font-size:9px!important;padding:8px!important}
+ .lang-toggle{font-size:9px!important;padding:6px 7px!important}
+ #idea-notice .notice-copy small{display:none}
+}
+</style>
+<style id="elai-performance-optimizations">
+/* Keep the neon identity; reduce costly repaints on handheld devices. */
+@media (max-width: 700px){
+ .blob{filter:blur(38px)!important;animation:none!important;opacity:.25!important}
+ .psy-orbit,.psy-ring{animation-duration:28s!important}
+ .reveal{filter:none!important;transition-property:opacity,transform!important}
+ header,.skill,.project,.blog,.note,.value{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+ #idea-panel{backdrop-filter:blur(8px)!important;-webkit-backdrop-filter:blur(8px)!important}
+}
+@media (prefers-reduced-motion: reduce){
+ *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}
+ .reveal{opacity:1!important;transform:none!important;filter:none!important}
+}
+</style>
+</head>
+<body>
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="brand-mark">ا.</span> الهام <b>زکی‌زاده</b></a>
+<nav class="links" id="navlinks"><a href="#about">درباره من</a><a href="#skills">خدمات</a><a href="#projects">نمونه‌کارها</a><a href="#experience">مراحل همکاری</a><a href="#education">تحصیلات</a><a href="#blog">وبلاگ</a><a href="#contact">تماس</a></nav>
+<button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language">EN</button><button class="menu" id="menubtn">☰</button><a class="cta" href="#contact">شروع همکاری ✨</a>
+</div></header>
+<main>
+<section class="hero wrap" id="home">
+<div class="hero-copy">
+<div class="hello"><span class="dot"></span> به دنیای ElAi خوش آمدید</div>
+<h1>من <span>الهام زکی‌زاده</span> هستم</h1>
+<h2>بنیان‌گذار ElAi | راهکارهای <em>AI</em> و <em>Data</em></h2>
+<p class="lead">ElAi یک فضای خلاق برای تبدیل ایده‌ها به راهکارهای دیجیتال است. از تحلیل مسئله و طراحی مسیر فنی تا ساخت نمونه اولیه، توسعه و اتوماسیون؛ کمک می‌کنیم فناوری به نتیجه‌ای کاربردی برای کسب‌وکار شما تبدیل شود.</p>
+<div class="chips"><span class="chip">Digital Solutions</span><span class="chip">توسعه با Python</span><span class="chip">هوش مصنوعی و یادگیری ماشین</span><span class="chip">داده‌کاوی و کشف الگو</span><span class="chip">n8n Automation</span><span class="chip">Telegram & Bale Bots</span></div>
+<div class="actions"><a class="btn" href="#projects">خدمات و راهکارها ↙</a><a class="btn alt" href="#contact">شروع یک پروژه ✉</a></div>
+<div class="social">برای شروع، ایده‌تان را با مشاور هوشمند مطرح کنید یا درخواست پروژه ثبت کنید.</div>
+</div>
+<div class="art psychedelic-art"><div class="psy-orbit orbit-a"></div><div class="psy-orbit orbit-b"></div><div class="psy-orbit orbit-c"></div><div class="psy-ring"></div><div class="halo"></div><span class="spark s1">✦</span><span class="spark s2">♡</span><span class="spark s3">✧</span><span class="bubble one">توسعه با Python ✨</span><span class="bubble two">Data & AI</span><img class="portrait" src="elai-avatar.webp" width="1152" height="1536" fetchpriority="high" decoding="async" alt="تصویر کارتونی اصلی ElAi"></div>
+</section>
+<div class="wrap stats">
+<div class="stat reveal"><strong>۲–۳ سال</strong><small>سابقه کاری اعلام‌شده</small></div><div class="stat reveal"><strong>۶</strong><small>حوزه و دوره آموزشی ثبت‌شده</small></div><div class="stat reveal"><strong>۲</strong><small>مخزن عمومی در GitHub</small></div><div class="stat reveal"><strong>۲۰۲۷</strong><small>افق هدف حرفه‌ای</small></div>
+</div>
+<section class="content wrap" id="about"><div class="heading reveal"><span class="eyebrow">درباره ElAi</span><h2>فناوری وقتی ارزشمند است که مسئله‌ای واقعی را حل کند</h2><p>از شناخت نیاز تا طراحی و اجرای راهکار؛ همراهی در تمام مسیر تبدیل ایده به محصول.</p></div>
+<div class="about-grid"><div class="note reveal"><h3>ایده‌ات را تعریف کن؛ با هم می‌سازیمش ✨</h3><p>در ElAi به جای پیشنهاد راهکارهای آماده و یکسان، ابتدا مسئله، مخاطب و هدف پروژه را می‌شناسیم. سپس مناسب‌ترین ترکیب از هوش مصنوعی، داده، نرم‌افزار و اتوماسیون را پیشنهاد می‌کنیم؛ از جمله طراحی و پیاده‌سازی ربات‌های تلگرام و بله برای پاسخ‌گویی، ثبت سفارش و اتصال به فرایندهای کسب‌وکار.</p><p>تمرکز ما روی راهکارهای قابل استفاده، تجربه کاربری روشن، توسعه مرحله‌ای و امنیت اطلاعات است؛ از یک نمونه اولیه کوچک تا یک فرایند هوشمند کامل.</p></div><div class="values"><div class="value"><i>🎯</i><b>مسئله‌محور</b><p>شروع از نیاز واقعی، نه صرفاً فناوری.</p></div><div class="value"><i>🧠</i><b>هوشمند و داده‌محور</b><p>تصمیم‌گیری بر پایه تحلیل و شواهد.</p></div><div class="value"><i>🛠️</i><b>قابل اجرا</b><p>راهکارهایی با مسیر پیاده‌سازی مشخص.</p></div></div></div></section>
+<section class="content tint" id="skills"><div class="wrap"><div class="heading reveal"><span class="eyebrow">خدمات</span><h2>چه چیزی می‌توانیم برای شما بسازیم؟</h2><p>درصد خدمات را تا زمان ارزیابی دقیق، به‌صورت رتبه‌بندی ساختگی نمایش نمی‌دهیم.</p></div><div class="grid3">
+<div class="skill reveal"><div class="ico">📊</div><h3>تحلیل داده و داشبورد</h3><p>تحلیل اطلاعات، گزارش‌سازی و داشبوردهای مدیریتی.</p></div><div class="skill reveal"><div class="ico">🐍</div><h3>توسعه با Python</h3><p>ساخت ابزارها، اسکریپت‌ها و سرویس‌های داده‌محور.</p></div><div class="skill reveal"><div class="ico">🧩</div><h3>داده‌کاوی و کشف الگو</h3><p>کشف الگوها و بینش‌های ارزشمند از داده.</p></div><div class="skill reveal"><div class="ico">🤖</div><h3>هوش مصنوعی و یادگیری ماشین</h3><p>طراحی راهکارهای پیش‌بینی و تحلیل هوشمند.</p></div><div class="skill reveal"><div class="ico">⚙️</div><h3>اتوماسیون هوشمند</h3><p>اتصال ابزارها و خودکارسازی فرایندهای تکراری با n8n؛ از جمله اتصال ربات‌های تلگرام و بله به سرویس‌ها و پایگاه‌های داده.</p></div><div class="skill reveal"><div class="ico">💻</div><h3>طراحی وب و محصولات دیجیتال</h3><p>طراحی و توسعه وب‌سایت‌ها و ابزارهای دیجیتال واکنش‌گرا و متناسب با نیاز کسب‌وکار.</p></div>
+<div class="skill reveal"><div class="ico">🤖</div><h3>ربات‌سازی در تلگرام و بله</h3><p>طراحی ربات‌های اختصاصی برای پاسخ‌گویی خودکار، ثبت سفارش، پیگیری درخواست‌ها، اعلان‌ها و اتصال به هوش مصنوعی و n8n.</p></div>
+</div></div></section>
+<section class="content wrap" id="projects">
+<div class="heading reveal"><span class="eyebrow">نمونه‌کارها | PORTFOLIO</span><h2>پروژه‌هایی که ساخته‌ام</h2><p>چند نمونه از پیاده‌سازی‌های من در هوش مصنوعی و اتوماسیون؛ برای هر پروژه توضیح، فناوری‌ها و دسترسی به کد منبع قرار داده شده است.</p></div>
+<div class="projects">
+<div class="project reveal">
+<div class="project-icon">👗</div><h3>دستیار هوشمند استایل و فروش مد</h3>
+<p>یک دستیار هوشمند برای فروشگاه‌های پوشاک که با n8n و مدل‌های زبانی چندوجهی طراحی شده است. هدف پروژه، خودکارسازی بخشی از فرایند مشاوره استایل و پشتیبانی فروشگاه و کمک به پاسخ‌گویی و پیشنهاددهی هوشمند به مشتریان است.</p>
+<div class="tags"><span>n8n</span><span>Multimodal AI</span><span>LLMs</span><span>Automation</span></div>
+<a href="fashion-ai-stylist.html">مشاهده مطالعه موردی ↗</a><small><a href="https://github.com/elzakizade/n8n-fashion-ai-stylist" target="_blank" rel="noopener noreferrer">مخزن GitHub</a></small>
+</div>
+<div class="project reveal">
+<div class="project-icon">🎂</div><h3>اتوماسیون سفارش کیک و شیرینی با بله</h3>
+<p>گردش‌کار یکپارچه مبتنی بر n8n برای نانوایی و قنادی ElBakeri؛ شامل اتصال ربات پیام‌رسان بله، دریافت سفارش کیک و شیرینی با کمک هوش مصنوعی، تخمین وزن کیک، تولید تصویر پیشنهادی، ارسال خودکار تصویر برای مشتری و اطلاع‌رسانی سفارش به مدیر.</p>
+<div class="tags"><span>n8n</span><span>AI Ordering</span><span>Bale Bot</span><span>Image Generation</span></div>
+<a href="bakery-order-automation.html">مشاهده مطالعه موردی ↗</a><small><a href="https://github.com/elzakizade/ElBakeri_Bale_Cake_Order_Automation" target="_blank" rel="noopener noreferrer">مخزن GitHub</a></small>
+</div>
+</div>
+<div class="callout reveal"><b>برای دیدن سایر فعالیت‌ها و مخازن عمومی من</b><a href="https://github.com/elzakizade" target="_blank" rel="noopener noreferrer">مشاهده پروفایل GitHub ↗</a></div>
+</section>
+<section class="content tint" id="experience"><div class="wrap"><div class="heading reveal"><span class="eyebrow">مراحل همکاری</span><h2>چهار قدم از ایده تا اجرا</h2><p>شفاف، مرحله‌ای و متناسب با اولویت‌های پروژه.</p></div><div class="grid3">
+<div class="skill reveal"><div class="ico">01</div><h3>شناخت مسئله</h3><p>هدف، کاربران، محدودیت‌ها و خروجی مورد انتظار را مشخص می‌کنیم.</p></div>
+<div class="skill reveal"><div class="ico">02</div><h3>طراحی راهکار</h3><p>مسیر فنی، امکانات ضروری و نقشه اجرای پروژه را تعریف می‌کنیم.</p></div>
+<div class="skill reveal"><div class="ico">03</div><h3>ساخت و ارزیابی</h3><p>نمونه اولیه یا نسخه اجرایی را می‌سازیم و با بازخورد اصلاح می‌کنیم.</p></div>
+<div class="skill reveal"><div class="ico">04</div><h3>تحویل و بهبود</h3><p>مستندسازی، راه‌اندازی و برنامه بهبود مرحله‌ای را انجام می‌دهیم.</p></div>
+</div></div></section>
+<section class="content wrap" id="education"><div class="heading reveal"><span class="eyebrow">اصول ElAi</span><h2>چیزی که در هر همکاری مهم می‌دانیم</h2><p>کیفیت فقط ظاهر زیبا نیست؛ راهکار باید امن، قابل فهم و قابل نگهداری باشد.</p></div><div class="education"><div class="card reveal"><h3>🔐 امنیت و حریم خصوصی</h3><p>دسترسی حداقلی، نگهداری مسئولانه اطلاعات و محافظت از کلیدها و داده‌های حساس.</p></div><div class="card reveal"><h3>🧩 سادگی و تجربه کاربری</h3><p>رابط روشن، طراحی واکنش‌گرا و فرایندهایی که استفاده از آن‌ها آسان باشد.</p></div><div class="card reveal"><h3>🚀 توسعه‌پذیری</h3><p>ساخت مرحله‌ای با توجه به نیاز واقعی امروز و امکان رشد در آینده.</p></div></div></section>
+<section class="content tint" id="blog"><div class="wrap"><div class="heading reveal"><span class="eyebrow">وبلاگ</span><h2>ایده‌ها و بینش‌های فناوری</h2><p>به‌زودی مطالب کاربردی درباره AI، داده، اتوماسیون و طراحی محصولات دیجیتال در این بخش منتشر می‌شود.</p></div><div class="blogs"><article class="blog reveal"><b>شروع مسیر تحلیل داده</b><p>راهنمایی برای تبدیل داده خام به گزارش و بینش قابل استفاده.</p></article><article class="blog reveal"><b>یادگیری ماشین به زبان ساده</b><p>مفاهیم و کاربردهای AI و یادگیری ماشین در پروژه‌های واقعی.</p></article><article class="blog reveal"><b>اتوماسیون با n8n</b><p>ایده‌هایی برای اتصال ابزارها و حذف کارهای تکراری با n8n.</p></article></div></div></section>
+<section class="content wrap" id="faq"><div class="heading reveal"><span class="eyebrow">سؤالات متداول</span><h2>پیش از شروع همکاری</h2></div><div class="faq">
+<details class="reveal"><summary>ElAi چه خدماتی ارائه می‌دهد؟</summary><p>تحلیل داده، توسعه با Python، هوش مصنوعی و یادگیری ماشین، اتوماسیون با n8n، طراحی وب و ساخت ربات‌های اختصاصی تلگرام و بله.</p></details>
+<details class="reveal"><summary>برای مطرح‌کردن ایده از کجا شروع کنم؟</summary><p>از مشاور هوشمند سایت استفاده کنید یا فرم ثبت درخواست پروژه را تکمیل کنید. برای برآورد دقیق، ابتدا دامنه و نیاز پروژه بررسی می‌شود.</p></details>
+<details class="reveal"><summary>آیا قبل از اجرا امکان بررسی امکان‌سنجی وجود دارد؟</summary><p>بله؛ می‌توانیم ابتدا مسئله، داده‌های در دسترس، پیچیدگی فنی و مسیر پیشنهادی را بررسی کنیم.</p></details>
+<details class="reveal"><summary>آیا طراحی و ساخت ربات تلگرام و بله هم انجام می‌دهید؟</summary><p>بله؛ امکان طراحی و پیاده‌سازی ربات اختصاصی در تلگرام و پیام‌رسان بله وجود دارد؛ از ربات‌های پاسخ‌گو و ثبت سفارش تا اعلان، پیگیری درخواست و اتصال به n8n یا قابلیت‌های هوش مصنوعی. امکانات نهایی پس از بررسی نیاز پروژه مشخص می‌شود.</p></details>
+<details class="reveal"><summary>اطلاعات پروژه چگونه مدیریت می‌شود؟</summary><p>فقط اطلاعات ضروری برای پیگیری درخواست دریافت می‌شود. لطفاً رمز عبور، اطلاعات بانکی یا داده‌های محرمانه را در فرم یا گفت‌وگوی عمومی وارد نکنید.</p></details>
+</div></section>
+<section class="content tint" id="contact"><div class="wrap"><div class="heading reveal"><span class="eyebrow">شروع همکاری</span><h2>ایده‌تان را به ما بسپارید</h2><p>برای طراحی وب‌سایت، تحلیل داده، راهکارهای هوش مصنوعی، اتوماسیون یا ساخت ربات تلگرام و بله، چند خط درباره نیاز و نتیجه دلخواهتان بنویسید؛ مسیر مناسب را با هم پیدا می‌کنیم.</p></div>
+<div class="contact"><div class="contact-card reveal"><h3>از یک گفت‌وگوی کوتاه شروع کنیم 💬</h3><p>مشاور هوشمند می‌تواند به روشن‌شدن نیاز، انتخاب مسیر فنی و آماده‌سازی درخواست پروژه کمک کند.</p><a href="#home" onclick="setTimeout(()=>document.getElementById('idea-launcher')?.click(),150)">گفت‌وگو با مشاور هوشمند ↗</a><p>برای ارتباط و مشاهده فعالیت‌های حرفه‌ای:</p>
+<div class="social-links">
+<a href="https://www.linkedin.com/in/elham-zakizadeh-60322137b" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+<a href="mailto:elhamem8@gmail.com">Email ↗</a>
+<a href="https://github.com/elzakizade" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+<a href="https://www.karlancer.com/review/my1409916" target="_blank" rel="noopener noreferrer">Karlancer ↗</a>
+<a href="https://ponisha.ir/profile/elhamzakizade" target="_blank" rel="noopener noreferrer">Ponisha ↗</a>
+</div>
+<p>برای ثبت درخواست رسمی، فرم ثبت پروژه را باز کنید.</p></div>
+<div class="form reveal"><h3>برای شروع چه چیزهایی آماده کنیم؟</h3><ul><li>هدف یا مسئله‌ای که می‌خواهید حل شود</li><li>مخاطبان یا کاربران راهکار</li><li>امکانات ضروری و اولویت‌ها</li><li>محدودیت زمانی یا فنی، در صورت وجود</li></ul><a class="btn" href="#home" onclick="setTimeout(()=>{document.getElementById('idea-launcher')?.click();document.getElementById('tab-order')?.click()},150)">ثبت درخواست پروژه ✨</a></div></div></div></section>
+</main>
+<footer><div class="wrap foot"><b>ElAi 🌈</b><p>ایده‌های شما را به راهکارهای دیجیتال تبدیل می‌کنیم ✨</p><a href="#home">بازگشت به بالا ↑</a></div></footer>
+<button class="top" id="topbtn" aria-label="بازگشت به بالا">↑</button>
+
+<script id="bilingual-motion-script">
+(()=>{
+ const root=document.documentElement;
+ const toggle=document.getElementById('lang-toggle');
+ const translations={
+  en:{
+   '.brand':'<span class="brand-mark">E.</span> ElAi',
+   '.links a:nth-child(1)':'About','.links a:nth-child(2)':'Skills','.links a:nth-child(3)':'Portfolio','.links a:nth-child(4)':'Our Process','.links a:nth-child(5)':'Why ElAi','.links a:nth-child(6)':'Blog','.links a:nth-child(7)':'Contact',
+   '.cta':'Let’s collaborate ✨',
+   '.hello':'<span class="dot"></span> Welcome to ElAi',
+   '.hero h1':'I’m <span>Elham Zakizadeh</span>',
+   '.hero h2':'Founder of ElAi | <em>AI</em> & <em>Data</em> solutions',
+   '.lead':'I turn data and technology into practical solutions. My work spans data analytics, Python development, machine learning, intelligent automation, and custom Telegram and Bale bots for business workflows.',
+   '.actions .btn:first-child':'Explore services ↙','.actions .btn.alt':'Start a project ✉',
+   '.social':'Share your idea with our AI consultant or submit a project request.',
+   '#about .eyebrow':'ABOUT ELAI','#about .heading h2':'Technology matters when it solves a real problem','#about .heading p':'From understanding needs to designing and delivering solutions.',
+   '#about .note h3':'Hello, I’m Elham! 🌸', '#about .note p:first-of-type':'I work at the intersection of data and technology, exploring practical solutions with Python, machine learning, workflow automation, and custom Telegram and Bale bots for customer support, order intake, and business processes.','#about .note p:nth-of-type(2)':'I’m creative, organized, and detail-oriented. I enjoy learning new tools and turning knowledge into practical experience.',
+   '#skills .eyebrow':'SERVICES','#skills .heading h2':'What can we build for you?','#skills .heading p':'Services can be combined and tailored to your goals and project scope.',
+   '#projects .eyebrow':'PORTFOLIO','#projects .heading h2':'Projects I have built','#projects .heading p':'Selected implementations in AI and automation, with project summaries, technologies, and source-code links. Bot development for Telegram and Bale is also available as a service.',
+   '#experience .eyebrow':'OUR PROCESS','#experience .heading h2':'Four steps from idea to delivery',
+   '#education .eyebrow':'ELAI PRINCIPLES','#education .heading h2':'What matters in every collaboration',
+   '#blog .eyebrow':'INSIGHTS','#blog .heading h2':'Ideas and technology insights',
+   '#faq .eyebrow':'FAQ','#faq .heading h2':'Frequently asked questions','#faq details:nth-child(1) p':'Services include data analytics, Python development, AI and machine learning, n8n workflow automation, web development, and custom Telegram and Bale bots.','#faq details:nth-child(5) summary':'Do you build Telegram and Bale bots?','#faq details:nth-child(5) p':'Yes. I can design custom bots for automated replies, order intake, request tracking, notifications, and integrations with n8n or AI services. The exact features are defined after reviewing your needs.',
+   '#contact .eyebrow':'START A PROJECT','#contact .heading h2':'Let’s bring your idea to life','#contact .heading p':'Tell us what you need: a website, data or AI solution, workflow automation, or a custom Telegram or Bale bot. We’ll help map the next steps.',
+   '#contact .contact-card h3':'Start with a conversation 💌','#contact .contact-card p':'Our AI consultant can help clarify your needs and explore solutions such as data analysis, automation, and custom Telegram or Bale bots.',
+   '#contact .form h3':'What should we know?',
+   'footer .foot b':'ElAi 🌈','footer .foot p':'Made with curiosity, creativity, and a little coding magic ✨','footer .foot a':'Back to top ↑',
+   '#idea-launcher':'💬 AI Consultant / Start a Project',
+   '.idea-head strong':'Let’s bring your ideas to life ✨','.idea-head small':'AI consultant & project intake',
+   '#tab-chat':'Chat with AI','#tab-order':'Submit a project',
+   '#idea-messages .idea-msg.bot':'Hi! Tell me about your idea or challenge. I’ll help clarify your needs, explore possible solutions, and guide you through submitting a project request.',
+   '#idea-input':'Describe your idea…','#idea-send':'Send',
+   '.idea-note':'This chat is not saved to the database in this version. Please do not share sensitive information.',
+   '#idea-order .idea-submit':'Submit project request securely',
+   '#idea-order-status':'Your information is used only to follow up on your request. Regular AI chat messages are not stored.',
+   '#skills .skill:nth-child(1) h3':'Advanced Excel','#skills .skill:nth-child(1) p':'Spreadsheet analysis and reporting.',
+   '#skills .skill:nth-child(2) p':'Programming and working with data.','#skills .skill:nth-child(3) p':'Discovering patterns and insights from data.',
+   '#skills .skill:nth-child(4) p':'Data-driven modeling and predictive methods.','#skills .skill:nth-child(5) h3':'n8n & Workflow Automation','#skills .skill:nth-child(5) p':'Connecting tools and automating repetitive processes, including messaging bots and business systems.','#skills .skill:nth-child(6) h3':'Websites & Digital Products','#skills .skill:nth-child(6) p':'Responsive websites and practical digital tools tailored to business needs.','#skills .skill:nth-child(7) h3':'Telegram & Bale Bot Development','#skills .skill:nth-child(7) p':'Custom bots for automated replies, order intake, request tracking, notifications, and integrations with AI and n8n.',
+   '#projects .project:nth-child(1) h3':'AI Fashion Stylist & Sales Assistant','#projects .project:nth-child(1) p':'An intelligent assistant for fashion boutiques, built with n8n and multimodal language models. The project aims to automate parts of styling consultation and store support, helping respond to customer requests and provide intelligent suggestions.','#projects .project:nth-child(1) a':'View source on GitHub ↗',
+   '#projects .project:nth-child(2) h3':'Cake & Sweets Ordering Automation with Bale','#projects .project:nth-child(2) p':'An n8n workflow for bakery ordering through the Bale messenger, including AI-assisted order intake, cake-weight estimation, image generation and delivery, and admin notifications.','#projects .project:nth-child(2) a':'View source on GitHub ↗',
+   '#projects .project:nth-child(3) h3':'AI & Data development path','#projects .project:nth-child(3) p':'Current areas of focus and projects in development. New work will be added with supporting documentation.','#projects .project:nth-child(3) a':'Explore all repositories ↗',
+   '#experience .experience b':'Experience in a business environment','#experience .experience p':'Professional experience in a company, including Excel, reporting, and information and data analysis.',
+   '#education .education .card:first-child h3':'🎓 Academic background','#education .education .card:first-child b':'BSc in Digital Solutions','#education .education .card:first-child p':'Payame Noor University',
+   '#education .education .card:nth-child(2) h3':'🏅 Courses & certificates','#education .education .card:nth-child(2) p':'Course certificates are available; provider names and images can be added later.',
+   '#blog .blog:nth-child(1) b':'Getting started with data analytics','#blog .blog:nth-child(1) p':'A space to share a learning path and practical data analytics tools.',
+   '#blog .blog:nth-child(2) b':'Machine learning, simply explained','#blog .blog:nth-child(2) p':'Practical learning notes and experiences in machine learning.',
+   '#blog .blog:nth-child(3) b':'Workflow automation with n8n','#blog .blog:nth-child(3) p':'Tips and examples for making processes simpler through automation.','#blog .blog:nth-child(4) b':'Telegram & Bale bots','#blog .blog:nth-child(4) p':'How messaging bots can support customer service, orders, notifications, and business automation.',
+   '#faq details:nth-child(1) summary':'Which areas do I work in?','#faq details:nth-child(1) p':'Services include data analytics, Python development, AI and machine learning, n8n automation, web development, and custom Telegram and Bale bots.',
+   '#faq details:nth-child(2) summary':'How can we discuss a collaboration?','#faq details:nth-child(2) p':'You can contact me through LinkedIn or email.',
+   '#faq details:nth-child(3) summary':'Where can I find project examples?','#faq details:nth-child(3) p':'My GitHub profile is available, and selected projects can be explored there.',
+   '#contact .form label:nth-of-type(1)':'Your name','#contact .form label:nth-of-type(2)':'Your email','#contact .form label:nth-of-type(3)':'Subject','#contact .form label:nth-of-type(4)':'Message',
+   '#contact .form button':'Prepare email ✉'
+  },
+  fa:{}
+ };
+ const originals=new Map();
+ function remember(sel){document.querySelectorAll(sel).forEach((el,i)=>{const key=sel+'|'+i;if(!originals.has(key))originals.set(key,el.innerHTML)})}
+ Object.keys(translations.en).forEach(remember);
+ function setLang(lang){
+  const en=lang==='en';
+  Object.entries(translations.en).forEach(([sel,value])=>document.querySelectorAll(sel).forEach(el=>{if(!el.dataset.faHtml)el.dataset.faHtml=el.innerHTML;el.innerHTML=en?value:el.dataset.faHtml}));
+  const labels=document.querySelectorAll('#idea-order label');
+  const faLabels=['نام یا نام شرکت','ایمیل تماس','نوع درخواست','توضیح کوتاه پروژه'];
+  const enLabels=['Name or company','Contact email','Request type','Brief project description'];
+  labels.forEach((label,i)=>{if(i<4){let node=label.firstChild;if(node&&node.nodeType===Node.TEXT_NODE){if(!label.dataset.faLabel)label.dataset.faLabel=node.textContent;node.textContent=en?enLabels[i]:label.dataset.faLabel;}}});
+  const inputPlaceholder=document.getElementById('idea-input');
+  inputPlaceholder.placeholder=en?'Describe your idea…':'ایده‌ات رو اینجا بنویس...';
+  const orderFields=document.querySelectorAll('#idea-order input[name="name"],#idea-order input[name="email"],#idea-order textarea[name="description"]');
+  if(orderFields[0])orderFields[0].placeholder=en?'Your name':'';
+  if(orderFields[1])orderFields[1].placeholder=en?'name@example.com':'';
+  if(orderFields[2])orderFields[2].placeholder=en?'What problem should we solve?':'چه مسئله‌ای دارید و چه نتیجه‌ای می‌خواهید؟';
+  const consent=document.querySelector('#idea-order label:nth-of-type(5)');
+  if(consent){if(!consent.dataset.faHtml)consent.dataset.faHtml=consent.innerHTML;consent.innerHTML=en?'<input type="checkbox" name="consent" required style="width:auto;margin:0"> I agree to storing the essential information needed to follow up on my request.':consent.dataset.faHtml;}
+  root.lang=en?'en':'fa';root.dir=en?'ltr':'rtl';document.body.classList.toggle('english',en);
+  toggle.textContent=en?'فا':'EN';toggle.setAttribute('aria-label',en?'Switch to Persian':'Switch to English');
+  document.title=en?'ElAi | AI, Data & Creative Technology':'ElAi | AI, Data & Creative Technology';
+  document.querySelector('meta[name="description"]')?.setAttribute('content',en?'ElAi — Digital Solutions, data analytics, توسعه با Python, machine learning and AI-powered automation.':'وب‌سایت حرفه‌ای در حوزه تحلیل داده، توسعه با Python، یادگیری ماشین و اتوماسیون هوشمند.');
+  try{localStorage.setItem('site-language',lang)}catch(e){}
+ }
+ toggle.addEventListener('click',()=>setLang(root.lang==='fa'?'en':'fa'));
+ let saved='fa';try{saved=localStorage.getItem('site-language')||'fa'}catch(e){}
+ if(saved==='en')setLang('en');
+ const wipe=document.getElementById('section-wipe');
+ document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>{if(wipe){wipe.classList.remove('active');void wipe.offsetWidth;wipe.classList.add('active');setTimeout(()=>wipe.classList.remove('active'),700)}}));
+})();
+</script>
+
+<script>
+const menu=document.getElementById('menubtn'), links=document.getElementById('navlinks');
+menu.addEventListener('click',()=>links.classList.toggle('open'));
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+const topbtn=document.getElementById('topbtn');window.addEventListener('scroll',()=>topbtn.classList.toggle('show',window.scrollY>450));topbtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+document.getElementById('contactform').addEventListener('submit',e=>{e.preventDefault();const f=new FormData(e.target);const subject=encodeURIComponent(f.get('subject'));const body=encodeURIComponent('نام: '+f.get('name')+'\\nایمیل پاسخ: '+f.get('email')+'\\n\\n'+f.get('message'));window.location.href='mailto:?subject='+subject+'&body='+body;});
+</script>
+
+<style>
+#idea-launcher{position:fixed;left:22px;bottom:22px;z-index:1000;border:0;border-radius:999px;padding:13px 18px;background:linear-gradient(110deg,#9271e8,#f28fbd);color:#fff;font:800 13px Vazirmatn,Tahoma,sans-serif;box-shadow:0 12px 35px #7654a544;cursor:pointer}
+#idea-panel{position:fixed;left:22px;bottom:82px;width:min(390px,calc(100vw - 28px));height:min(620px,calc(100dvh - 115px));z-index:1001;background:#fff;border:1px solid #eee4f5;border-radius:22px;box-shadow:0 24px 80px #32234435;display:none;overflow:hidden;direction:rtl;color:#352b49;font-family:Vazirmatn,Tahoma,sans-serif}
+#idea-panel.open{display:flex;flex-direction:column}
+.idea-head{padding:15px 17px;background:linear-gradient(110deg,#f0e9ff,#fff0f7);display:flex;justify-content:space-between;align-items:center}
+.idea-head strong{font-size:14px}.idea-head small{display:block;color:#82788f;font-size:11px;margin-top:3px}
+.idea-close{border:0;background:#fff;border-radius:10px;padding:6px 10px;cursor:pointer}
+.idea-tabs{display:flex;gap:7px;padding:10px 12px;border-bottom:1px solid #f0e7f5}
+.idea-tabs button{flex:1;border:1px solid #eee4f5;background:#fff;border-radius:11px;padding:9px 5px;font:700 11px Vazirmatn;cursor:pointer;color:#756a85}
+.idea-tabs button.active{background:#f2ecff;color:#785bc0;border-color:#d9c9fa}
+.idea-chat{display:flex;flex:1;min-height:0;flex-direction:column}
+.idea-messages{padding:12px;overflow:auto;flex:1;background:#fffafd}
+.idea-msg{max-width:88%;padding:10px 12px;margin:7px 0;border-radius:14px;font-size:12px;line-height:2;white-space:pre-wrap;overflow-wrap:anywhere}
+.idea-msg.bot{background:#f2edff;margin-left:auto}.idea-msg.user{background:#e6faf5;margin-right:auto}
+.idea-compose{display:flex;gap:7px;padding:10px;border-top:1px solid #f0e7f5}
+.idea-compose textarea{resize:none;min-height:42px;max-height:90px;flex:1;border:1px solid #eee4f5;border-radius:12px;padding:9px;font:12px Vazirmatn;direction:rtl}
+.idea-send{border:0;border-radius:12px;padding:0 14px;background:#9271e8;color:#fff;font-weight:800;cursor:pointer}
+.idea-note{font-size:10px;color:#8b8197;padding:0 12px 9px}
+.idea-order{display:none;padding:13px;overflow:auto}.idea-order.active{display:block}
+.idea-order label{display:block;font-size:11px;font-weight:800;margin:10px 0}
+.idea-order input,.idea-order select,.idea-order textarea{display:block;width:100%;box-sizing:border-box;margin-top:5px;border:1px solid #eee4f5;border-radius:11px;padding:10px;font:12px Vazirmatn;background:#fff}
+.idea-order textarea{min-height:90px;resize:vertical}
+.idea-submit{width:100%;border:0;border-radius:12px;padding:12px;background:linear-gradient(110deg,#9271e8,#f28fbd);color:white;font:800 12px Vazirmatn;cursor:pointer;margin-top:10px}
+.idea-status{font-size:11px;line-height:1.9;color:#756a85;margin-top:8px}
+.idea-hp{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+@media(max-width:560px){#idea-launcher{left:12px;bottom:12px;padding:11px 14px}#idea-panel{left:8px;bottom:68px;width:calc(100vw - 16px);height:min(650px,calc(100dvh - 85px));border-radius:18px}}
+</style>
+
+<div class="section-wipe" id="section-wipe"></div>
+<div id="idea-notice" role="status" aria-live="polite">
+  <button class="notice-dismiss" id="notice-dismiss" type="button" aria-label="بستن اعلان">×</button>
+  <div class="notice-icon">✨</div>
+  <div class="notice-copy"><strong>ایده‌ای توی ذهنته؟</strong><small>مشاور ElAi آماده است کمکت کنه.</small></div>
+  <button class="notice-open" id="notice-open" type="button">گفت‌وگو</button>
+</div>
+<button id="idea-launcher" type="button" aria-controls="idea-panel" aria-expanded="false">💬 مشاوره هوشمند / ثبت پروژه</button>
+<section id="idea-panel" role="dialog" aria-modal="false" aria-label="مشاور هوشمند و ثبت درخواست پروژه">
+  <div class="idea-head"><div><strong>ایده‌های شما را واقعی می‌کنیم ✨</strong><small>مشاور هوشمند و ثبت درخواست پروژه</small></div><button class="idea-close" id="idea-close" type="button" aria-label="بستن">✕</button></div>
+  <div class="idea-tabs"><button type="button" class="active" id="tab-chat">گفت‌وگو با مشاور</button><button type="button" id="tab-order">ثبت درخواست پروژه</button></div>
+  <div class="idea-chat" id="idea-chat">
+    <div class="idea-messages" id="idea-messages"><div class="idea-msg bot">سلام! ایده یا مسئله‌ات رو برام توضیح بده. کمک می‌کنم نیازت رو روشن کنی، راهکار مناسب پیدا کنی و اگر خواستی درخواست پروژه ثبت کنی.</div></div>
+    <div class="idea-compose"><textarea id="idea-input" maxlength="2000" rows="1" placeholder="ایده‌ات رو اینجا بنویس..."></textarea><button class="idea-send" id="idea-send" type="button">ارسال</button></div>
+    <div class="idea-note">گفت‌وگوی این پنجره در این نسخه در پایگاه داده ذخیره نمی‌شود. لطفاً اطلاعات حساس وارد نکن.</div>
+  </div>
+  <form class="idea-order" id="idea-order">
+    <label>نام یا نام شرکت<input name="name" maxlength="100" required autocomplete="name"></label>
+    <label>ایمیل تماس<input name="email" type="email" maxlength="160" required autocomplete="email"></label>
+    <label>نوع درخواست<select name="projectType" required><option value="">انتخاب کنید</option><option>مشاوره هوش مصنوعی</option><option>تحلیل داده و یادگیری ماشین</option><option>اتوماسیون و n8n</option><option>طراحی وب‌سایت یا محصول دیجیتال</option><option>سایر</option></select></label>
+    <label>توضیح کوتاه پروژه<textarea name="description" maxlength="3000" required placeholder="چه مسئله‌ای دارید و چه نتیجه‌ای می‌خواهید؟"></textarea></label>
+    <label style="display:flex;gap:8px;align-items:center"><input type="checkbox" name="consent" required style="width:auto;margin:0"> با ذخیره اطلاعات ضروری برای پیگیری درخواست موافقم.</label>
+    <label class="idea-hp" aria-hidden="true">وب‌سایت<input name="website" tabindex="-1" autocomplete="off"></label>
+    <button class="idea-submit" type="submit">ثبت امن درخواست</button>
+    <div class="idea-status" id="idea-order-status" aria-live="polite">اطلاعات فقط برای پیگیری درخواست استفاده می‌شود. مکالمات مشاور ذخیره نمی‌شوند.</div>
+  </form>
+</section>
+<script>
+(()=>{
+ const panel=document.getElementById('idea-panel'), launcher=document.getElementById('idea-launcher');
+ const chatTab=document.getElementById('tab-chat'), orderTab=document.getElementById('tab-order');
+ const chat=document.getElementById('idea-chat'), order=document.getElementById('idea-order');
+ const messages=document.getElementById('idea-messages'), input=document.getElementById('idea-input');
+ const history=[];
+ const toggle=(which)=>{const isChat=which==='chat';chat.style.display=isChat?'flex':'none';order.classList.toggle('active',!isChat);chatTab.classList.toggle('active',isChat);orderTab.classList.toggle('active',!isChat)};
+ launcher.addEventListener('click',()=>{panel.classList.add('open');launcher.setAttribute('aria-expanded','true')});
+ document.getElementById('idea-close').addEventListener('click',()=>{panel.classList.remove('open');launcher.setAttribute('aria-expanded','false')});
+ chatTab.addEventListener('click',()=>toggle('chat'));orderTab.addEventListener('click',()=>toggle('order'));
+ const add=(text,who)=>{const el=document.createElement('div');el.className='idea-msg '+who;el.textContent=text;messages.appendChild(el);messages.scrollTop=messages.scrollHeight;return el};
+ async function send(){
+   const text=input.value.trim();if(!text)return;
+   input.value='';add(text,'user');history.push({role:'user',content:text});
+   const pending=add('در حال بررسی ایده‌ات…','bot');
+   document.getElementById('idea-send').disabled=true;
+   try{
+     const response=await fetch('/api/consult',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:history.slice(-10)})});
+     const data=await response.json();
+     if(!response.ok)throw new Error(data.error||'مشاور فعلاً در دسترس نیست.');
+     pending.textContent=data.reply;history.push({role:'assistant',content:data.reply});
+   }catch(err){pending.textContent=err.message+' می‌توانی از فرم ثبت درخواست هم استفاده کنی.'}
+   finally{document.getElementById('idea-send').disabled=false}
+ }
+ document.getElementById('idea-send').addEventListener('click',send);
+ input.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();send()}});
+ order.addEventListener('submit',async e=>{
+   e.preventDefault();const f=new FormData(order);const status=document.getElementById('idea-order-status');
+   const payload={name:f.get('name'),email:f.get('email'),projectType:f.get('projectType'),description:f.get('description'),consent:f.get('consent')==='on',website:f.get('website')};
+   status.textContent='در حال ثبت درخواست…';
+   try{
+     const r=await fetch('/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+     const d=await r.json();if(!r.ok)throw new Error(d.error||'ثبت درخواست انجام نشد.');
+     status.textContent='درخواستت با موفقیت ثبت شد. کد پیگیری: '+d.reference;
+     order.reset();
+   }catch(err){status.textContent=err.message}
+ });
+})();
+</script>
+
+
+<script>
+(()=>{
+ const nav=document.getElementById('navlinks');
+ nav.querySelectorAll('a[href^="#"]').forEach(a=>{
+   a.addEventListener('click',e=>{
+     const target=document.querySelector(a.getAttribute('href'));
+     if(!target)return;
+     e.preventDefault();
+     nav.classList.remove('open');
+     target.scrollIntoView({behavior:'smooth',block:'start'});
+     history.replaceState(null,'',a.getAttribute('href'));
+   });
+ });
+ const panel=document.getElementById('idea-panel');
+ const launcher=document.getElementById('idea-launcher');
+ const notice=document.getElementById('idea-notice');
+ const open=()=>{
+   panel.classList.add('open');
+   launcher.setAttribute('aria-expanded','true');
+   notice.classList.remove('show');
+ };
+ document.getElementById('notice-open').addEventListener('click',open);
+ document.getElementById('notice-dismiss').addEventListener('click',()=>notice.classList.remove('show'));
+ launcher.addEventListener('click',open);
+ document.getElementById('idea-close').addEventListener('click',()=>{
+   panel.classList.remove('open');
+   launcher.setAttribute('aria-expanded','false');
+ });
+ window.addEventListener('load',()=>setTimeout(()=>{
+   if(!panel.classList.contains('open'))notice.classList.add('show');
+ },3200));
+})();
+</script>
+</body></html>
